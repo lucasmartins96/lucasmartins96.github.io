@@ -29,7 +29,6 @@ h1 {
 }
 
 h3 {
-    /* background-color: #1D3557; */
     background-color: #457B9D;
     color: #F1FAEE;
     text-transform: uppercase;
@@ -55,7 +54,6 @@ a:hover {
 
 .button-indice {
     color: #F1FAEE;
-    /* background-color: #E63946; */
     background-color: #457B9D;
     padding: 5px 10px;
     border-radius: 5px;
