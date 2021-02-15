@@ -14,9 +14,23 @@ body {
     padding: 10px;
 }
 
-#indice {
-    margin-top: 10px;
+#my-inf-container {
+    height: auto;
 }
+
+#name {
+    text-align: center;
+}
+
+#img-desc {
+    display: inline-block;
+    height: auto;
+}
+
+#my-img {
+    float: left;
+}
+
 
 strong {
     color: #A8DADC;
