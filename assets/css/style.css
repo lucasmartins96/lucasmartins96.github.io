@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "roboto";
+  font-size: 16px;
+  margin: 0;
+}
+
+#container {
+  background-color: #1d3557;
+  margin: 0px auto;
+  width: 80%;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#my-inf-container {
+  height: auto;
+}
+
+#name {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+  color: #f1faee;
+}
+
+#indice {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #a8dadc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.button-indice {
+  color: #f1faee;
+  background-color: #457b9d;
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.button-indice:hover {
+  background-color: #e63946;
+  color: #f1faee;
+  text-decoration: none;
+}
+
+#img-desc {
+  display: inline-block;
+  height: auto;
+  margin: 20px 0px;
+}
+
+#my-img {
+  float: left;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #f1faee;
+  margin-right: 15px;
+}
+
+img {
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+#sobre-mim p {
+  margin: 0;
+}
+
+strong {
+  color: #a8dadc;
+}
+
+h3 {
+  background-color: #457b9d;
+  color: #f1faee;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  padding: 10px 0px 10px 10px;
+  border-radius: 5px;
+}
+
+p,
+li {
+  line-height: 30px;
+  color: #f1faee;
+}
+
+ul li:nth-of-type(2n + 1) strong {
+  color: #fff;
+}
