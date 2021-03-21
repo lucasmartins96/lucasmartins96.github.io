@@ -1,0 +1,29 @@
+* {
+  font-size: 18px;
+}
+
+#top {
+  background-color: aquamarine;
+}
+
+.top-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-container li {
+  margin-right: 0 !important;
+  padding: 0 5px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+svg {
+  width: 10px;
+}
