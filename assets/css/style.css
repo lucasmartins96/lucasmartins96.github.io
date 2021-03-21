@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600;700&display=swap');
+
 * {
   font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 #top {
@@ -42,5 +45,19 @@ section {
 }
 
 #myimg-container {
-  width: 100%;
+  width: 100%;margin-bottom: 15px;
+
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid darkblue;
+  width: 5%;
+  position: relative;
+  bottom: -6px; /* your padding + border-width */
 }

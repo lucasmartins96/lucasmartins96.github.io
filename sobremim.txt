@@ -1,4 +1,16 @@
+Minha primeira experiência na informática foi por volta de 2010, quando fiz um curso de Informática/Manutenção de Computadores na escola profissionalizante Liceu de Artes e Ofícios de Itaquaquecetuba e no último módulo tive o primeiro contato com HTML e CSS.
+
+Entre 2013 e 2018 estudei na Etec de Poá, cursando Técnico em Informática para Internet e logo após ingressei na UMC-SP, cursando Tecnólogo em Análise e Desenvolvimento de Sistemas. Como trabalho de conclusão de ambos os cursos, em grupo, desenvolvemos sites/sistemas funcionais. Na Etec, desenvolvemos o EWTV, um portal com informações sobre diversos seriados utilizando PHP e MySQL e na faculdade, desenvolvemos a Salus, um sistema de gerenciamento de consultas para a ala de fisioterapia da faculdade.
+
+Desde então me tornei autodidata enquanto procurava oportunidades na área. Durante esse tempo tenho aprimorado minhas habilidades concluindo a certificação em Web Design Responsivo na freeCodeCamp e cursando o módulo de back-end da b7Web. Atualmente faço parte da 10ª turma da Trybe, cursando a formação em Desenvolvimento Web pelo MSC (Modelo de Sucesso Compartilhado) e aprimorando não somente as hard-skills, mas também as soft-skills exigidas pelo mercado.
+
+
+//rascunho útil
 Nascido em 1996, tenho 24 anos, Brasileiro natural de São Paulo - SP e residindo atualmente em Suzano - SP. 
 Atualmente estudo Desenvolvimento Web na Trybe, mas sou Técnico em Informática p/ Internet na 
 Etec de Poá-SP e já estudei Análise e Desenvolvimento de Sistemas na UMC-SP. 
 Gosto de acompanhar temas relacionados a tecnologia, música, futebol e basquete.
+
+Em 2013, iniciei meus estudos na Etec de Poá (SP) cursando Informática para Internet onde me abriu os olhos pra seguir na área de Desenvolvimento Web. Ao longo do curso tive contato com o PHP e MySQL e como trabalho de conclusão de curso o nosso grupo desenvolveu um portal de informações sobre seriados.
+
+Continuei meus estudos na UMC-SP, cursando Análise e Desenvolvimento de Sistemas em 2015 e durante 2 anos tivemos contato com C e Java e como trabalho de conclusão de curso a turma desenvolveria um sistema de agenda de consultas para a ala de fisioterapia da faculdade, o nosso grupo nomeou esse sistema de Salus e ele foi desenvolvido utilizando Bootstrap, PHP e PostgreSQL.
