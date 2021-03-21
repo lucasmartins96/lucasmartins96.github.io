@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600;700&display=swap');
 
 * {
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -28,7 +28,7 @@
 
 h1 {
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 svg {
@@ -50,14 +50,15 @@ section {
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
+/*Source: https://stackoverflow.com/questions/46910157/how-to-add-a-partial-border-to-header-title*/
 h2::after {
   content: "";
   display: block;
   border-bottom: 2px solid darkblue;
   width: 5%;
   position: relative;
-  bottom: -6px; /* your padding + border-width */
+  bottom: -6px;
 }
