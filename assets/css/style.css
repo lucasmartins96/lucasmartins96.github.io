@@ -31,3 +31,16 @@ h1 {
 svg {
   width: 10px;
 }
+
+section {
+  margin-bottom: 50px;
+}
+
+#about-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#myimg-container {
+  width: 100%;
+}
