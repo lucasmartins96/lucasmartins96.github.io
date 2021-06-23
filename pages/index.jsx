@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Header from '../components/Index/Header';
+import Hero from '../components/Index/Hero';
 
 function HomePage() {
   return (
@@ -20,6 +21,7 @@ function HomePage() {
         <title>Lucas Martins da Silva</title>
       </Head>
       <Header />
+      <Hero />
     </>
   );
 }
