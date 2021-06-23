@@ -1,13 +1,38 @@
-import React from "react";
+import React from 'react';
+import styled from 'styled-components';
+import Wrapper from '../../layout/Wrapper';
+
+const HeaderPage = styled.header`
+  border: 1px solid black;
+  padding: 20px 0;
+  width: 100%;
+`;
+
+const Menu = styled.nav`
+  display: flex;
+  width: 80%;
+
+  ul {
+    display: inherit;
+  }
+
+  li {
+    border: 1px solid black;
+    list-style-type: none;
+    flex-grow: 1;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  flex-direction: column;
+`;
 
 function Header() {
+  const justifyContentValue = 'center';
   return (
-    <header>
-      <nav>
-        <div>
-          <a href="#">Lucas</a>
-        </div>
-        <div>
+    <HeaderPage>
+      <Wrapper justifyContent={justifyContentValue}>
+        <Menu>
           <ul>
             <li>
               <a>home</a>
@@ -22,9 +47,9 @@ function Header() {
               <a>contato</a>
             </li>
           </ul>
-        </div>
-      </nav>
-    </header>
+        </Menu>
+      </Wrapper>
+    </HeaderPage>
   );
 }
 
