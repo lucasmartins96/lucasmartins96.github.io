@@ -6,7 +6,12 @@ import styled from 'styled-components';
 
 const WrapperImage = styled.div`
   border: 1px solid black;
-  width: 40%;
+  width: 30%;
+`;
+
+const AboutText = styled.section`
+  border: 1px solid black;
+  width: 70%;
 `;
 
 function About() {
