@@ -26,6 +26,23 @@ function About() {
           height={widHeiImage}
         />
       </WrapperImage>
+      <AboutText>
+        <p>
+          Olá! Eu sou Lucas Martins da Silva, tenho 24 anos e moro em Suzano - SP.
+        </p>
+        <p>
+          Sou são-paulino sofredor, gosto de acompanhar futebol e basquete. Também curto tocar um violão, contrabaixo e resolver problemas codificando.
+        </p>
+        <p>
+          Minha primeira experiência no desenvolvimento foi por volta de 2010, quando fiz um curso de Informática/Manutenção de Computadores na escola profissionalizante Liceu de Artes e Ofícios de Itaquaquecetuba - SP e no último módulo tive o primeiro contato com HTML e CSS desenvolvendo um site sobre o time europeu que eu gostava na época: Football Club Internazionale Milano (conhecido no Brasil como Inter de Milão).
+        </p>
+        <p>
+          Entre 2013 e 2018 estudei na Etec de Poá, cursando Técnico em Informática para Internet e logo após ingressei na UMC-SP, cursando Tecnólogo em Análise e Desenvolvimento de Sistemas. Como trabalho de conclusão de ambos os cursos, desenvolvemos em grupo sites/sistemas funcionais. Na Etec desenvolvemos o EWTV, um portal com informações sobre diversos seriados. Na UMC, desenvolvemos a Salus, um sistema de gerenciamento de consultas para a ala de fisioterapia da faculdade.
+        </p>
+        <p>
+          Desde então me tornei autodidata enquanto procurava oportunidades na área. Durante esse tempo tenho aprimorado minhas habilidades em Javascript, concluí a certificação em Web Design Responsivo gratuitamente na freeCodeCamp e cursando o módulo de back-end da b7Web. Atualmente faço parte da 10ª turma da Trybe, cursando a formação em Desenvolvimento Web pelo MSC (Modelo de Sucesso Compartilhado) e aprimorando minhas hard-skills e soft-skills.
+        </p>
+      </AboutText>
     </Wrapper>
   )
 }
