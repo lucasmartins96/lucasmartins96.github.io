@@ -7,7 +7,7 @@ const ComponentWrapper = styled.div`
   flex-direction: ${(props) => props.flexDirection || 'row'};
   justify-content: ${(props) => props.justifyContent || 'flex-start'};
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 1000px;
 `;
 
 function Wrapper({ children, flexDirection, justifyContent }) {

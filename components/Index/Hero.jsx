@@ -20,7 +20,7 @@ const HeroMessage = styled.div`
   flex-direction: column;
   height: 30%;
   justify-content: space-evenly;
-  width: 900px;
+  width: 1000px;
   text-align: center;
 `;
 
