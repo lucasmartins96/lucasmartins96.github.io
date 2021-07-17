@@ -2,6 +2,7 @@ import Head from 'next/head';
 import About from '../components/Index/About';
 import Header from '../components/Index/Header';
 import Hero from '../components/Index/Hero';
+import MyProjects from '../components/Index/MyProjects';
 
 function HomePage() {
   return (
@@ -24,6 +25,7 @@ function HomePage() {
       <Header />
       <Hero />
       <About />
+      <MyProjects />
     </>
   );
 }
