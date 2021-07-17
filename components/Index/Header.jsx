@@ -5,6 +5,8 @@ import Wrapper from '../../layout/Wrapper';
 const HeaderPage = styled.header`
   border: 1px solid black;
   padding: 20px 0;
+  position: fixed;
+  top: 0;
   width: 100%;
 `;
 
