@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import About from '../components/Index/About';
 import Header from '../components/Index/Header';
 import Hero from '../components/Index/Hero';
 
@@ -22,6 +23,7 @@ function HomePage() {
       </Head>
       <Header />
       <Hero />
+      <About />
     </>
   );
 }
