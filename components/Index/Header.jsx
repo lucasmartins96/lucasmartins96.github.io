@@ -4,10 +4,12 @@ import Wrapper from '../../layout/Wrapper';
 
 const HeaderPage = styled.header`
   border: 1px solid black;
+  overflow: hidden;
   padding: 20px 0;
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 `;
 
 const Menu = styled.nav`
