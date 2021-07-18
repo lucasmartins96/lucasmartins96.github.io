@@ -1,9 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 import Wrapper from '../../layout/Wrapper';
+import HeaderLink from './HeaderLink';
+
+const CONTENT_LINK = ['Home', 'Sobre Mim', 'Projetos Desenvolvidos', 'Contato'];
 
 const HeaderPage = styled.header`
-  border: 1px solid black;
+  background-color: rgba(8, 14, 18, 0.8);
   overflow: hidden;
   padding: 20px 0;
   position: fixed;
@@ -20,36 +23,18 @@ const Menu = styled.nav`
     display: inherit;
   }
 
-  li {
-    border: 1px solid black;
-    list-style-type: none;
-    flex-grow: 1;
-    padding: 10px 0;
-    text-align: center;
-  }
-
   flex-direction: column;
 `;
 
 function Header() {
   const justifyContentValue = 'center';
+  const callbackFn = (content) => <HeaderLink key={ content } content={ content } />;
   return (
     <HeaderPage>
       <Wrapper justifyContent={justifyContentValue}>
         <Menu>
           <ul>
-            <li>
-              <a>home</a>
-            </li>
-            <li>
-              <a>sobre mim</a>
-            </li>
-            <li>
-              <a>projetos desenvolvidos</a>
-            </li>
-            <li>
-              <a>contato</a>
-            </li>
+            { CONTENT_LINK.map(callbackFn) }
           </ul>
         </Menu>
       </Wrapper>
