@@ -15,13 +15,30 @@ const HeroImage= styled.div`
 `;
 
 const HeroMessage = styled.div`
-  border: 1px solid black;
+  color: #edf3f7;
   display: flex;
   flex-direction: column;
   height: 30%;
   justify-content: space-evenly;
   width: 1000px;
   text-align: center;
+
+  h1 {
+    font-size: 6.0rem;
+    text-shadow: 
+    1px 0px 1px #080e12, 0px 1px 1px #080e12, 
+    2px 1px 1px #080e12, 1px 2px 1px #080e12,
+    3px 2px 1px #080e12, 2px 3px 1px #080e12,
+    4px 3px 1px #080e12, 3px 4px 1px #080e12,
+    5px 4px 1px #080e12, 4px 5px 1px #080e12,
+    6px 5px 1px #080e12, 5px 6px 1px #080e12,
+    7px 6px 1px #080e12;
+    /* text-shadow: 2px 2px 4px #080e12; */
+  }
+
+  span {
+    font-size: 1.8rem;
+  }
 `;
 
 function Hero() {
