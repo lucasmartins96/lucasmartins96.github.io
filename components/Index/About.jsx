@@ -11,13 +11,21 @@ const WrapperImage = styled.div`
 
 const AboutText = styled.section`
   border: 1px solid black;
+  padding-left: 30px;
   width: 70%;
+
+  p {
+    /* font-size: 1.4rem; */
+    line-height: 2rem;
+    padding-bottom: 1rem;
+  }
 `;
 
 function About() {
   const widHeiImage = 1440;
+  const paddingValue = '50px 0';
   return (
-    <Wrapper>
+    <Wrapper padding={paddingValue}>
       <WrapperImage>
         <Image
           src={profileImage}
