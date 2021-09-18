@@ -1,0 +1,22 @@
+nav {
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(4, 15%);
+  grid-template-rows: 100px;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  justify-content: center;
+  justify-items: center;
+}
