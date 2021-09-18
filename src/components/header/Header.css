@@ -18,7 +18,7 @@ a {
   align-items: center;
   display: grid;
   grid-template-columns: repeat(4, 15%);
-  grid-template-rows: 100px;
+  grid-template-rows: 80px;
   grid-column-gap: 20px;
   grid-row-gap: 0px;
   justify-content: center;
